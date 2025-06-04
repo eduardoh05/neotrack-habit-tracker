@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neotrack - Consolidando Hábitos Saudáveis</title>
+    <!-- O arquivo CSS externo (css/style.css) será incluído separadamente, conforme sua organização. -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Cabeçalho da aplicação -->
     <header>
         <h1>Neotrack</h1>
         <p>Consolide novos hábitos saudáveis no seu dia a dia.</p>
     </header>
-    <main>
 
+    <!-- Conteúdo principal da aplicação -->
+    <main>
+        <div>
+            <!-- Seção para adicionar novo hábito -->
+            <section id="habit-input">
+                <h2>Adicionar Novo Hábito</h2>
+                <form id="habit-form">
+                    <!-- Campo de entrada para o nome do hábito -->
+                    <input
+                        type="text"
+                        id="habit-name"
+                        placeholder="Nome do Hábito (ex: Beber água, Exercitar, Estudar)"
+                        required
+                    >
+                    <!-- Botão para adicionar o hábito -->
+                    <button type="submit">
+                        Adicionar Hábito
+                    </button>
+                </form>
+            </section>
+        </div>
     </main>
+
+    <!-- Rodapé da aplicação -->
     <footer>
         <p>&copy; 2023 Neotrack. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- Script JavaScript para a lógica da aplicação -->
     <script src="js/app.js"></script>
 </body>
 </html>
