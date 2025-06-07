@@ -1,4 +1,4 @@
-# Neotrack
+# Neotrack(githubFlow)
 
 Neotrack is a web application designed to help users consolidate new healthy habits into their daily routines. The application allows users to register habits, track their progress, view basic statistics, and visualize achieved goals.
 
